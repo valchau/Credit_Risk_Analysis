@@ -10,26 +10,45 @@ For this analysis, I reviewed 6 different machine learning algorithm results usi
 I used Jupyter Notebooks and Python's DataFrames to load in the data. Then I used creat a model and then evaluate and train the models that they create, using Python's imbalanced-learn and scikit-learn libraries to build models and evalute them using resampling methods.
 
 ## Results of 6 algorithms to determine credit risk:
-First, two oversampling algorithms, Naive Random Oversampling and SMOTE Oversampling were used and the results are as follows:
+Below are the results of the 6 machine learning algorithms used.
 
 ### Naive Random Oversampling
 Naive Random Oversampling results: Our balanced accuracy test it 67%, the precision for the high_risk has a very low positivity at 1% and the recall is 74%.
+<br>
+<img src="https://github.com/valchau/Credit_Risk_Analysis/blob/main/NaiveRandomOverSampling.PNG" alt="NaiveRandomOverSampling" width="500" height="500" >
+<br>
 
 
 ### SMOTE Oversampling
-MOTE oversampling results: the accuracy score is 66.2%, the precision for the high_risk loans has a low positvity again at 1% and recall is 69% overall.
+SMOTE oversampling results: the accuracy score is 66.2%, the precision for the high_risk loans has a low positvity again at 1% and recall is 69% overall.
+<br>
+<img src="https://github.com/valchau/Credit_Risk_Analysis/blob/main/SMOTEOversampling.PNG" alt="SMOTEOversampling" width="500" height="500" >
+<br>
+
 
 ### Cluster Centroid Undersampling
 Undersampling results: balanced accuracy score is 66.2% overall, the precision is at 99% and the recall is 41%.
+<br>
+<img src="https://github.com/valchau/Credit_Risk_Analysis/blob/main/UnderSamplingUsingClusterCentriods.PNG" alt="UnderSamplingUsingClusterCentriods" width="500" height="500" >
+<br>
 
 ### Combination of Over and Under Sampling using SMOTEENN
 Combination(over and undersampling) results: balanced accuracy score is 54.7% the precision is 99% and the recall is 57% overall
+<br>
+<img src="https://github.com/valchau/Credit_Risk_Analysis/blob/main/UnderAndOverSamplingUsingSMOTEENN.PNG" alt="UnderAndOverSamplingUsingSMOTEENN" width="500" height="500" >
+<br>
 
 ### Ensemble using Balanced Random Forest
 Balanced Random Forest Classifier results: the accuracy score is 77.2% the precision is 99% and the recall is 88%
+<br>
+<img src="https://github.com/valchau/Credit_Risk_Analysis/blob/main/BalancedForestEnsemble.PNG" alt="BalancedForestEnsemble" width="500" height="500" >
+<br>
 
 ### Easy Ensemble AdaBoost
 Easy Ensemble AdaBoost Classifier results: the accuracy score is 91.7% the precision is 99% and the recall is 94%.
+<br>
+<img src="https://github.com/valchau/Credit_Risk_Analysis/blob/main/EasyEnsemble.PNG" alt="EasyEnsemble" width="500" height="500" >
+<br>
 
 ## Summary:
 In the first four models the algorithms undersampled, oversampled and did a combination of both to determine which model is best at predicting which loans are the highest risk. 
