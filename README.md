@@ -13,33 +13,33 @@ I used Jupyter Notebooks and Python's DataFrames to load in the data. Then I use
 Below are the results of the 6 machine learning algorithms used.
 
 ### Naive Random Oversampling
-Naive Random Oversampling results: Our balanced accuracy test it 67%, the precision for the high_risk has a very low positivity at 1% and the recall is 74%.
+Naive Random Oversampling results: Our balanced accuracy score is 57%, the precision is 99% and the recall is 70%.
 <br>
 <img src="https://github.com/valchau/Credit_Risk_Analysis/blob/main/NaiveRandomOverSampling.PNG" alt="NaiveRandomOverSampling" width="500" height="500" >
 <br>
 
 
 ### SMOTE Oversampling
-SMOTE oversampling results: the accuracy score is 66.2%, the precision for the high_risk loans has a low positvity again at 1% and recall is 69% overall.
+SMOTE oversampling results: the accuracy score is 64.7%, the precision is 99% and recall is 74% overall.
 <br>
 <img src="https://github.com/valchau/Credit_Risk_Analysis/blob/main/SMOTEOversampling.PNG" alt="SMOTEOversampling" width="500" height="500" >
 <br>
 
 
 ### Cluster Centroid Undersampling
-Undersampling results: balanced accuracy score is 66.2% overall, the precision is at 99% and the recall is 41%.
+Undersampling results: balanced accuracy score is 64.7% overall, the precision is 99% and the recall is 55%.
 <br>
 <img src="https://github.com/valchau/Credit_Risk_Analysis/blob/main/UnderSamplingUsingClusterCentriods.PNG" alt="UnderSamplingUsingClusterCentriods" width="500" height="500" >
 <br>
 
 ### Combination of Over and Under Sampling using SMOTEENN
-Combination(over and undersampling) results: balanced accuracy score is 54.7% the precision is 99% and the recall is 57% overall
+Combination(over and undersampling) results: balanced accuracy score is 54.3% the precision is 99% and the recall is 58% overall
 <br>
 <img src="https://github.com/valchau/Credit_Risk_Analysis/blob/main/UnderAndOverSamplingUsingSMOTEENN.PNG" alt="UnderAndOverSamplingUsingSMOTEENN" width="500" height="500" >
 <br>
 
 ### Ensemble using Balanced Random Forest
-Balanced Random Forest Classifier results: the accuracy score is 77.2% the precision is 99% and the recall is 88%
+Balanced Random Forest Classifier results: the accuracy score is 77.2% the precision is 99% and the recall is 89%
 <br>
 <img src="https://github.com/valchau/Credit_Risk_Analysis/blob/main/BalancedForestEnsemble.PNG" alt="BalancedForestEnsemble" width="500" height="500" >
 <br>
